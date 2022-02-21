@@ -4,6 +4,12 @@ using namespace std;
 
 int volume(int height, int width, int length);
 
+struct Box{
+  int height;
+  int width;
+  int length;
+} Box1, Box2;
+
 // 1. Define a structure called Box
 // have the integer data types Height, Width, Length
 
@@ -18,7 +24,7 @@ int main() {
     
     // 4. Input the height, width, lenght of box1 and box2
     cout << "Enter Box 1 Height : ";
-    cin >> Height of Box 1;
+    cin >> Box1.height;
     cout << "Enter Box 1 Width : ";
     cin >> Width of Box 1;
     cout << "Enter Box 1 Length : ";
